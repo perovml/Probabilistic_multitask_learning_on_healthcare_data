@@ -15,9 +15,6 @@ x = df_simulated[['NITR_S', 'K_SH_POST', 'zab_leg_01', 'ZSN_A', 'n_r_ecg_p_05', 
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=15)
 
-#number of parameters 
-yoyoyo = 'hihihi'
-parapapapam = 10000
 nparam = 7
 nlabel = 3
 
